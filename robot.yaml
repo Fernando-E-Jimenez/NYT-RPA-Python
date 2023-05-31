@@ -1,22 +1,13 @@
 tasks:
   Default:
     command:
-
-      - python
-      - task.py
-
+    - python
+    - task.py
 condaConfigFile: conda.yaml
-
-environmentConfigs:
-  - environment_windows_amd64_freeze.yaml
-  - conda.yaml
-
-artifactsDir: output  
-
-PATH:
-  - .
-PYTHONPATH:
-  - .
 ignoreFiles:
-  - .gitignore
-
+- .gitignore
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
