@@ -1,6 +1,14 @@
 {
     "search_phrase": "banks",
     "news_category": "",
-    "num_months": 0
-  }
-  
+    "num_months": 0,
+    "url": "https://www.nytimes.com/",
+    "titles_xpath": "//h4[@Class='css-2fgx4k']",
+    "dates_xpath": "//span[@Class='css-17ubb9w']",
+    "descriptions_xpath": "//p[@Class='css-16nhkrn']",
+    "images_xpath": "//img[@Class='css-rq4mmj']",
+    "button_search": "//button[@Class='css-tkwi90 e1iflr850']",
+    "text_area": "//input[@Class='css-1j26cud']",
+    "button_go": "//button[@Class='css-1gudca6 e1iflr852']",
+    "file_path": "output/list_news.xlsx"
+}
